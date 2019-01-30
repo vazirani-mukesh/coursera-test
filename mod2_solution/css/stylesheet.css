@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+h1{
+	margin: 25px;
+	text-align: center;
+	font-size: 3em;
+	font-family: Impact, Charcoal, sans-serif;
+}
+section{
+	background-color: grey;
+	position: relative;
+	float: left;
+	border:2px solid black;
+}
+h2{
+	width: 30%;
+	border: 1px solid black;
+	position: relative;
+	text-align: center;
+	right: -70%;
+	font-size: 150%;
+	font-style: italic;
+}
+p{
+	padding: 10px;
+	font-size: 18px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#h21{
+		background-color: pink;
+}
+#h22{
+		background-color: red;
+}
+#h23{
+		background-color: cyan;
+}
+@media (min-width: 992px){
+	.col-ld-4{
+		width: 31.33%;
+		margin: 1%;
+	}
+}
+@media( min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		width: 48%;
+		margin: 1%; 
+	}
+	.col-md-12{
+		width: 98%;
+		margin: 1%
+	}
+}
+@media(max-width: 767px){
+	.col-sd-12{
+		width: 98%;
+		margin:1%;
+	}
+}
