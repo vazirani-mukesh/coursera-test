@@ -1,0 +1,68 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#c01.container-fluid {
+	padding: 0px 67px
+}
+
+#nav1 {
+	background-color: #008080;
+	padding: 8px 0px 0;
+}
+
+.navbar-brand h1 {
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav {
+	margin: 0px -15px;
+}
+
+#collapsable-nav a {
+	color: black;
+}
+
+#nav-list a:hover {
+	background: #CD853F;
+}
+
+.list-group-item {
+	background-color: #D2B48C;
+	border: 1px solid black;
+	padding: 0;
+}
+
+#menu {
+	margin: 20px 0 50px;
+}
+
+#content h1 , #content h2 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#content div {
+	background-color: #008080;
+	border: 2px solid black;
+	margin: 40px 30px; 
+}
+
+.heading2 {
+	color: white;
+}
+
+p {
+	padding: 10px;
+	margin: 10px 10px; 
+}
+
+@media (max-width: 767px) {
+	#c01.container-fluid {
+    padding: 0px 15px;
+}
+}
